@@ -12,7 +12,7 @@ public class KdvHesaplayanProgram {
         }else {
             kdvOran = 0.8;
         }
-        double kdvTutar = tutar + kdvOran;
+        double kdvTutar = tutar * kdvOran;
         double kdvliTutar = tutar + kdvTutar;
         System.out.println("kdvli tutar :" + kdvliTutar);
     }
